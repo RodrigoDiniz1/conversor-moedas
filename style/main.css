@@ -92,7 +92,7 @@ section {
 }
 
 .currency {
-    text-align: center;
+    
     color: #777777;
     font-size: 14px;
 }
@@ -101,4 +101,8 @@ section {
     color: #555555;
     font-weight: 700;
     font-size: 20px;
+}
+
+.div-img {
+    text-align: center;
 }
