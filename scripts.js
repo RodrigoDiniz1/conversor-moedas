@@ -43,7 +43,17 @@ function convertValues() {
 }
 
 function changeCurrency(){
-console.log("trocou de moeda")
+const currencyName = document.getElementById('currency-name')
+
+if(currencySelect.value == 'dolar'){
+
+currencyName.innerHTML = 'Dólar americano'
+}
+
+if(currencySelect.value == 'euro'){
+
+    currencyName.innerHTML = 'Euro'
+    }
 
 }
 
