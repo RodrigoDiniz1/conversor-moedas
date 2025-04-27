@@ -26,7 +26,7 @@ function convertValues() {
             currency: "EUR"
         }).format(inputCurrencyValue / euroToday)
 
-
+      
     }
 
 
@@ -35,10 +35,6 @@ function convertValues() {
         style: "currency",
         currency: "BRL"
     }).format(inputCurrencyValue)
-
-  
-
-
     
 }
 
@@ -58,6 +54,7 @@ if(currencySelect.value == 'euro'){
     currencyImage.src = './assets/euro.png'
     }
 
+    convertValues()
 }
 
 currencySelect.addEventListener("change", changeCurrency)
